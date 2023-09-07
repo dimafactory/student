@@ -17,7 +17,7 @@ public:
         cout << "constructor by default \n";
         name = nullptr;
         age = 0;
-        email = nullptr;
+        email = nullptr; 
     }
     
     Student(const char* n, int a){// Oleg 20
