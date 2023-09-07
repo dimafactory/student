@@ -6,7 +6,7 @@
 //
 
 #include <iostream>
-using namespace std; 
+using namespace std;
 class Student{
     char* name;
     int age;
@@ -73,7 +73,7 @@ public:
     void Print(){
         cout << "Name: " << name << "\t Age: " << age << "\t e-mail: " << email << endl;
     }
-    const char* getName() const {
+    const char* getName(){
            return name;
        }
 
@@ -81,7 +81,7 @@ public:
            return age;
        }
 
-       const char* getEmail() const {
+       const char* getEmail() {
            return email;
        }
     
