@@ -59,7 +59,7 @@ public:
         
         cout << "enter an e-mail: ";
         cin >> buff1;
-        
+        //s
         if(email != nullptr){
             cout << "delete -> " << email << "... \n";
             delete[] email;
