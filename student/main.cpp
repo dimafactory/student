@@ -6,7 +6,7 @@
 //
 
 #include <iostream>
-using namespace std;
+using namespace std; 
 class Student{
     char* name;
     int age;
