@@ -17,6 +17,7 @@ public:
         cout << "constructor by default \n";
         name = nullptr;
         age = 0;
+        email = nullptr;
     }
     
     Student(const char* n, int a){// Oleg 20
@@ -59,7 +60,7 @@ public:
         
         cout << "enter an e-mail: ";
         cin >> buff1;
-        //s
+    
         if(email != nullptr){
             cout << "delete -> " << email << "... \n";
             delete[] email;
@@ -97,5 +98,6 @@ int main() {
 
     b.Print();
     b.input();
+    b.Print();
 }
  
