@@ -77,7 +77,7 @@ public:
            return name;
        }
 
-       int getAge() const {
+       int getAge() {
            return age;
        }
 
